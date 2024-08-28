@@ -1,0 +1,19 @@
+<suite name="BSIM KGB Suite" preserve-order="true">
+	<test name="BSIM KGB Test">
+		<classes>
+			<class name="com.ericsson.oss.bsim.test.cases.PrepareBsimTest" />
+			<class name="com.ericsson.oss.bsim.robustness.precheck.PreCheckOfficialPackages" />
+                        <class name="com.ericsson.oss.bsim.test.cases.BsimDG2" />
+			<class name="com.ericsson.oss.bsim.test.cases.BsimWCDMA" />
+    			<!--<class name="com.ericsson.oss.bsim.test.cases.BsimLTE" /> -->
+			<!--<class name="com.ericsson.oss.bsim.test.cases.BsimMicroLTE" /> -->
+                        <class name="com.ericsson.oss.bsim.test.cases.BsimMicroMacroLTE" />
+                        <class name="com.ericsson.oss.bsim.test.cases.BsimMicroWCDMA" />
+			<class name="com.ericsson.oss.bsim.test.cases.BsimLRANBatch" />
+			<class name="com.ericsson.oss.bsim.test.cases.BsimWRANBatch" />	
+		        <class name="com.ericsson.oss.bsim.test.cases.BsimCli" />
+
+		</classes>
+	</test>
+</suite>
+ 
